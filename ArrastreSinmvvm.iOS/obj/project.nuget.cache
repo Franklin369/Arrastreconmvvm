@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "j2+Pr74v4bDNjliBWRh5LT3fJrwsy9ovj62O+igJuUYYuXGmqEjO+yLxg/5uwfGQmJead4/TW7drSjKbndGoAg==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos Xamarin\\Desafios\\Hijos\\ArrastreSinmvvm\\ArrastreSinmvvm.iOS\\ArrastreSinmvvm.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\rg.plugins.popup\\2.1.0\\rg.plugins.popup.2.1.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

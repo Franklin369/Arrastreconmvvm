@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popups:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArrastreSinmvvm.Paginahijo"
+             xmlns:popups="http://rotorgames.com"
+                  xmlns:behaviors="clr-namespace:ArrastreSinmvvm.Behaviors">
+    <popups:PopupPage.Animation>
+        <popups:MoveAnimation PositionIn="Bottom"
+                              PositionOut="Bottom"
+                              DurationIn="400"
+                              DurationOut="300"
+                              HasBackgroundAnimation="True" />
+    </popups:PopupPage.Animation>
+    <Grid x:Name="gridprincipal"
+          BackgroundColor="Transparent"
+          Margin="0,200,0,0">
+        <Grid.Behaviors>
+            <behaviors:Arrastre />
+        </Grid.Behaviors>
+        <Grid RowDefinitions="auto,*">
+           
+            
+            <BoxView BackgroundColor="White"
+                     CornerRadius="10,10,0,0"
+                     Grid.RowSpan="2" />
+            <StackLayout Orientation="Horizontal"
+                         Padding="10">
+                <Label Text="comentarios"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       x:Name="lblY" />
+                <Button Text="x"
+                        HorizontalOptions="End"
+                        FontAttributes="Bold"
+                        TextColor="Gray"
+                        BackgroundColor="White"
+                        FontSize="Medium"
+                        WidthRequest="50"
+                        CornerRadius="10"
+                        Clicked="Button_Clicked" />
+            </StackLayout>
+            <Image Source="http://assets.stickpng.com/images/580b57fbd9996e24bc43bd28.png"
+                   VerticalOptions="Center"
+                   Grid.Row="1" />
+        </Grid>
+        
+    </Grid>
+</popups:PopupPage>
